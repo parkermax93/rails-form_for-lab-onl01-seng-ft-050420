@@ -4,6 +4,6 @@ class SchoolClass < ActiveRecord::Migration[5.0]
       t.string :title 
       t.integer :room_number
       
-      t.timestamps
+      t.timestamps null: false 
   end
 end
