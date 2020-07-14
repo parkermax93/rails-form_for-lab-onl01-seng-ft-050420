@@ -8,7 +8,7 @@ class SchoolClassesController < ApplicationController
   end 
   
   def create 
-    @classes = SchoolClass.new(params.require(:)
+    @classes = SchoolClass.new(params.require(:classes)
   end
   
   def edit 
