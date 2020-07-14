@@ -1,5 +1,5 @@
 class SchoolClass < ActiveRecord::Migration[5.0]
   def change
-    createtable schoolclass |t| do 
+    create_table :school_class do |t|
   end
 end
