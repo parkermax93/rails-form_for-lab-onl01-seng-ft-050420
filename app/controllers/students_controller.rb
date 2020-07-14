@@ -1,6 +1,5 @@
 class StudentsController < ApplicationController 
 
-  
   def new
     @student.new = Student.new
   end
